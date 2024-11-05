@@ -1,0 +1,49 @@
+body{
+    display: flex; /* Activa Flexbox en el body */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color:#ffd538 ;
+}
+.titulo{
+    width: 200px; 
+    height: 50px;
+    padding: 2rem;
+    background-color:#eec017 ;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10rem;
+    margin: 1cm;
+    font-family: monospace;
+    font-size: 1.3rem;
+} 
+
+.calculadora {
+    width: 500px; 
+    height: 500px; 
+    background-color: white; 
+    border: .3cm solid #1addff; 
+    box-shadow: 0 .3rem 2rem rgb(0, 0, 0);
+    border-radius: 40px;
+    justify-content: center; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 1cm;
+    padding: 1cm;
+}
+
+.boton {
+    padding: 1.1cm;
+    margin: .27cm;
+    background-color: rgb(145, 246, 212);
+    border-radius: .5cm;
+    box-shadow: 0 .3rem 15px rgba(223, 80, 255, 0.486); 
+}
+
+#celda {
+    width: 100%; 
+    height: 150px;
+    border-radius: .5cm;
+    border: 5px solid #1199b0;  /* Borde de 5px de grosor, color negro */
+}

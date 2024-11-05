@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Menu</title>
+    <link rel="icon" href="imagenes/cal.png" type="image/png">
+    <title>Calculadora</title>
 </head>
 <body>
-    <div class="logo">
-        <img src="imagenes/pino.png" class="imagen" alt="Logo">
-    </div>
+    <header class="titulo">
+        <th>Calculadora</th>
+    </header>
+    <table class="calculadora", border="0">
+            <tr>
+                <td id="celda" colspan="4"></td>
+            </tr>
+            <tr>
+                <td><button class="boton">C</button></td>
+                <td colspan="2"></td>
+                <td><button class="boton" data-op="dividir">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="boton" id="siete" value="7">7</button></td>
+                <td><button class="boton" id="ocho" value="8">8</button></td>
+                <td><button class="boton" id="nueve">9</button></td>
+                <td><button class="boton" data-op="multiplicar">x</button></td>
+            </tr>
+            <tr>
+                <td><button class="boton" id="cuatro">4</button></td>
+                <td><button class="boton" id="cinco">5</button></td>
+                <td><button class="boton" id="seis">6</button></td>
+                <td><button class="boton" data-op="restar">--</button></td>
+            </tr>
+            <tr>
+                <td><button class="boton" id="uno">1</button></td>
+                <td><button class="boton" id="dos">2</button></td>
+                <td><button class="boton" id="tres">3</button></td>
+                <td><button class="boton" data-op="sumar">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="boton" id="cero">0</button></td>
+                <td><button class="boton" id="punto">.</button></td>
+                <td><button class="boton" data-op="igual">=</button></td>
+            </tr>
+    </table>
+    <script src="javas.js"></script>
 </body>
 </html>
